@@ -15,12 +15,12 @@ public class SeleniumTest{
     private WebDriver webDriver;
     private String path;
 
-    @BeforeAll
-    static void setupClass() {
-        WebDriver.chromedriver().setup();
-        WebDriver.edgedriver().setup();
+    // @BeforeAll
+    // static void setupClass() {
+    //     WebDriver.chromedriver().setup();
+    //     WebDriver.edgedriver().setup();
 
-    }
+    // }
 
     @BeforeEach
     public void setUp() {
