@@ -10,8 +10,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.PageLoadStrategy;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class SeleniumTest{
 
     private WebDriver webDriver;
